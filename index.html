@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Las 3 metaetiquetas anteriores * deben * ser lo primero en la cabeza; cualquier otro contenido principal debe venir * después * de estas etiquetas -->
+  <title>Nefertti Web</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-default navbar-static-top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>Nefertti</h1>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html" class="active">Home</a></li>
+              <li role="presentation"><a href="#introduccion">Introducción</a></li>
+              <li role="presentation"><a href="#caracteristicas">características</a></li>
+              <li role="presentation"><a href="#galeria">Galeria</a></li>
+              <li role="presentation"><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.container-->
+    </nav>
+    <!--/nav-->
+  </header>
+  <!--/header-->
+
+  <div class="slider">
+    <div id="about-slider">
+      <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators visible-xs">
+          <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-slider" data-slide-to="1"></li>
+          <li data-target="#carousel-slider" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/7.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                <h2><span>Moda</span></h2>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Beneficiaria para todos</p>
+                </div>
+              </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg"
+                      required="required">Acceder</button>
+                  </div>
+                  <div class="form-group">
+                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Ver</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/slide.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
+                <h2>Elegancia</h2>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Grandiosas prendas</p>
+                </div>
+              </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg"
+                      required="required">Acceder</button>
+                  </div>
+                  <div class="form-group">
+                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg"
+                      required="required">Ver</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/pexels-pixabay-325876.jpg" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                <h2>Única</h2>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Destaca entre los demás</p>
+                </div>
+              </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg"
+                      required="required">Acceder</button>
+                  </div>
+                  <div class="form-group">
+                    <button type="getnow" name="subscribe" class="btn btn-primary btn-lg"
+                      required="required">Ver</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+
+        <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+      <!--/#carousel-slider-->
+    </div>
+    <!--/#about-slider-->
+  </div>
+  <!--/#slider-->
+
+  <div class="about"   id="introduccion">   
+    <div class="container">
+      <div class="text-center">
+        <h2>Introducción </h2>
+        <div class="col-md-10 col-md-offset-1" data-aos="zoom-in">
+          <p>Nuestra empresa busca ser beneficiaria para todos. Buscamos que conozcas nuevos diseñadores que aún siguen
+            en la sombra y que quieren brillar con sus colecciones, sobre salir entre la multitud con grandiosas
+            prendas. Buscamos que nuestros clientes encuentren prendas únicas y de alta costura pero no a un precio tan
+            elevado como las franquicias qwue conocemos. Nosotros como empresa buscamos reducir la marca de carbono
+            dentro del planeta, haciendo uso de la moda sustentable y amigable al planeta para un bien común, de eso
+            trata Nefertti.</p>
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="btn-gamp"><a href="#">Conoce más</a></div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="gamp-btn"><a href="#">Gift Card</a></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="services" id="caracteristicas">
+    <div class="container">
+      <div class="text-center">
+        <h2>características</h2>
+      </div>
+      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <i class="fa fa-heart-o"></i>
+        <h3>Amor por la Moda</h3>
+        <p>Nuestro amor por la ropa hace que movamos montañas y hoy podemos brindarte lo mejor de lo mejor en cuanto a calidad, comodidad y estilo.</p>
+      </div>
+      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <i class="fa fa-cloud"></i>
+        <h3>Vuela tu Imaginación</h3>
+        <p>Te ofrecemos ropa unica y fashionista, todo aquello que imaginaste podras encontrarlo aqui por parte de los diseñadores más prometedores.</p>
+      </div>
+      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+        <i class="fa fa-book"></i>
+        <h3>Tomamos tu Pedido</h3>
+        <p>Puedes encargar tu ropa unica a la medida que gustes y si no la encuentras, pues nosotros te la creamos.</p>
+      </div>
+      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+        <i class="fa fa-gear"></i>
+        <h3>Ajustamos Todo</h3>
+        <p>Tu ropa de ensueño esta a la alcance de tu mano y nosotros te la mejoramos, pregunta por tallas y nosotros te las hacemos.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="action">
+    <div class="container">
+      <div class="left-text hidden-xs" data-aos="fade-right">
+        <h4>¿Qué es la moda sustentable?</h4>
+        <p><em>La moda sustentable es toda aquella prenda que puede ser reutilizada por otra persona, o prendas que no
+            sean un contaminante masivo para la capa de ozono.</em><br><br>Se busca remediar un poco de la crisis
+          climatica que afrontamos de manera que eol beneficio sea para todos. La moda sustentable la podemos encontrar
+          en bazares, venta de ropa usada y diseñadores que trabajen con telas amigables al medio ambiente.</p>
+      </div>
+      <div class="right-image hidden-xs"></div>
+    </div>
+  </section>
+
+  <div class="gallery"  id="galeria">
+    <div class="text-center">
+      <h2>Galería</h2>
+      <p>Algunas capturas de nuestras prendas. </p>
+      <div class="galeria-port">
+        <div class="imagen-port">
+          <img src="img/img8.jpg" alt="">
+          <div class="hover-galeria">
+            <img src="img/icono1.png" alt="">
+
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/img2.jpg" alt="">
+          <div class="hover-galeria">
+            <img src="img/icono1.png" alt="">
+
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/img3.jpg" alt="">
+          <div class="hover-galeria">
+            <img src="img/icono1.png" alt="">
+
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/img1.jpg" alt="">
+          <div class="hover-galeria">
+            <img src="img/icono1.png" alt="">
+
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/img4.jpg" alt="">
+          <div class="hover-galeria">
+            <img src="img/icono1.png" alt="">
+
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/img5.jpg" alt="">
+          <div class="hover-galeria">
+            <img src="img/icono1.png" alt="">
+
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/img6.jpg" alt="">
+          <div class="hover-galeria">
+            <img src="img/icono1.png" alt="">
+
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/img7.jpg" alt="">
+          <div class="hover-galeria">
+            <img src="img/icono1.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+
+    <div class="sub-footer" id="contacto">
+      <div class="container">
+        <div class="social-icon">
+          <div class="col-md-4">
+            <ul class="social-network">
+              <li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-4">
+          <div class="copyright">
+            &copy; Nefertti Theme. Derechos Reservados.
+            <div class="credits">
+
+              <a>Nefertti</a>
+              by <a>Nefertti</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      wow = new WOW({}).init();
+    </script>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+
+</html>
